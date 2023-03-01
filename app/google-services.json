@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550209119198",
+    "project_id": "supervisor-helper",
+    "storage_bucket": "supervisor-helper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550209119198:android:b47f3b044f8d7b9295334f",
+        "android_client_info": {
+          "package_name": "com.ssssdfd.supervisorhelperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550209119198-0sp6clp42pruldb50knohjoqi4if8h6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEDRBnC_262S0bDi_YvdOVFV_HQLQRDAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550209119198-0sp6clp42pruldb50knohjoqi4if8h6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/mfragTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Fragment"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/mfragSinOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/mfragCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Camera"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+</LinearLayout>

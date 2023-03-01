@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_weight="0.5"
+        android:text="Register form"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/regEmailEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/regPasswordEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textSize="23sp"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ProgressBar
+                android:id="@+id/regProgressBar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                android:layout_weight="3"/>
+            <Button
+                android:id="@+id/regGoBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go"
+                android:layout_weight="1"
+                android:layout_gravity="end"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/regLogInTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to log in"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>
